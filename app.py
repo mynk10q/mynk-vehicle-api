@@ -87,7 +87,7 @@ def get_vehicle_details(rc_number: str) -> dict:
 @app.route("/", methods=["GET"])
 def home():
     return jsonify({
-        "message": "🚗 Vehicle Info API by Mohd Kaif is running!",
+        "message": "🚗 Vehicle Info API by mynk is running!",
         "developer": COPYRIGHT_STRING,
         "tag": "api by mynk"
     })
